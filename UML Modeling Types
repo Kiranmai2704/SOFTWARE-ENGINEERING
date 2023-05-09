@@ -1,0 +1,20 @@
+UML Modeling Types
+It is very important to distinguish between the UML models. Different diagrams are used for different type of UML modeling. There are three important type of UML modeling:
+Structural modeling:
+Structural modeling captures the static features of a system. They consist of the followings:
+●	Class diagrams
+●	Objectsdiagrams
+●	Deploymentdiagrams
+●	Packagediagrams
+●	Componentdiagrams
+Structural model represents the framework for the system and this framework is the place where all other components exist. So the class diagram, component diagram and deployment diagrams are the part of structural modeling. They all represent the elements and the mechanism to assemble them.
+But the structural model never describes the dynamic behavior of the system. Class diagram is the most widely used structural diagram.
+
+Behavioral Modeling
+Behavioral model describes the interaction in the system. It represents the interaction among the structural diagrams.Behavioralmodelingshowsthedynamicnatureofthesystem.Theyconsistofthe following:
+●	Activitydiagrams
+●	Interactiondiagrams
+●	Use casediagrams
+All the above show the dynamic sequence of flow in a system.
+Architectural Modeling
+Architectural model represents the overall framework of the system. It contains both structural and behavioral elements of the system. Architectural model can be defined as the blue print of the entire system. Package diagram comes under architectural modeling.
