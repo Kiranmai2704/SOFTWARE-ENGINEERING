@@ -1,0 +1,38 @@
+UML
+What is UML?
+"The Unified Modeling Language (UML) is a language for specifying, visualizing, constructing, and documenting the artifacts of software systems, as well as for business modeling and other non- software systems".OMG UML Specification
+
+"UML is a graphical notation for modeling various aspects of software systems." 
+
+
+Why use UML?
+Two questions, really:
+1)	Why use a graphical notation of anysort?
+Facilitates construction of models that in turn can be used to:
+Reason about system behavior. Present proposed designs to others.
+Document key elements of design for future understanding.
+2)	Which graphical notation should beused?
+UML has become the de-facto standard for modeling object-oriented systems. UML is extensible and method independent.
+UML is not perfect, but it's good enough.
+
+The Origins of UML
+Object-oriented programming reached the mainstream of programming in the late 1980's and early 1990's. The rise in popularity of object-oriented programming was accompanied by a profusion of object-oriented analysis and design methods, each with its own graphical notation.
+Three OOA/D gurus, and their methods, rose to prominence Grady BoochThe Booch Method,JamesRumbaugh,etal.ObjectModelingTechnique,IvarJacsobson—ObjectoryIn1994, BoochandRumbaugh,thenbothatRational,startedworkingonaunificationoftheirmethods.Afirst draftoftheirUnifiedMethodwasreleasedinOctober1995.In1996,(+/-)JacobsonjoinedBoochand Rumbaugh at Rational; the name UML was coined. In 1997 the Object Management Group (OMG) acceptedUMLasanopenandindustrystandardvisualmodelinglanguageforobjectorientedsystems. Current version of UMLis2.0.
+
+UML DiagramTypes
+There are several types of UML diagrams:
+Use-case Diagram
+Shows actors, use-cases, and the relationships between them.
+Class Diagram
+Shows relationships between classes and pertinent information about classes themselves.
+Object Diagram
+Shows a configuration of objects at an instant in time.
+Interaction DiagramsShow an interaction between a group of collaborating objects. Two types: Collaboration diagram and sequence diagram Package Diagram
+Shows system structure at the library/package level.
+State Diagram
+Describes behavior of instances of a class in terms of states, stimuli, and transitions.
+Activity Diagram
+Very similar to a flowchart—shows actions and decision points, but with the ability to accommodate concurrency.
+Deployment Diagram
+Shows configuration of hardware and software in a distributed system.
+
