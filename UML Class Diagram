@@ -1,0 +1,31 @@
+UML Class Diagram
+The class diagram is a static diagram. It represents the static view of an application. Class diagramisnotonlyusedforvisualizing,describinganddocumentingdifferentaspectsofasystembut also for constructing executable code of the softwareapplication.
+
+The class diagram describes the attributes and operations of a class andalso the constraints imposed on the system. The class diagrams are widely used in the modelling of object oriented systems because they are the only UML diagrams which can be mapped directly with object oriented languages.
+
+The class diagram shows a collection of classes, interfaces, associations, collaborations and constraints. It is also known as a structural diagram.
+Purpose:
+The purpose of the class diagram is to model the static view of an application. The class diagramsaretheonlydiagramswhichcanbedirectlymappedwithobjectorientedlanguagesandthus widely used at the time ofconstruction.
+
+TheUMLdiagramslikeactivitydiagram,sequencediagramcanonlygivethesequenceflowoftheapplicationbutclassdiagramisabitdifferent.Soitisthem Ost popularUMLdiagram inthecoder community.
+
+So the purpose of the class diagram can be summarized as:
+●	Analysisanddesignofthestaticview ofanapplication.
+●	Describe responsibilities of asystem.
+●	Base for component anddeploymentdiagrams.
+●	Forward and reverseengineering.
+How to draw Class Diagram?
+Class diagrams are the most popular UML diagrams used for construction of software applications. So it is very important to learn the drawing procedure of class diagram.
+Class diagrams have lot of properties to consider while drawing but here the diagram will be considered from a top-level view.
+Class diagram is basically a graphical representation of the static view of the system and represents different aspects of the application. So a collection of class diagrams represent the whole system.
+The following points should be remembered while drawing a class diagram:
+●	Thenameoftheclassdiagramshouldbemeaningfultodescribetheaspectofthesystem.
+●	Eachelementandtheirrelationshipsshouldbeidentifiedinadvance.
+●	Responsibility(attributesandmethods)ofeachclassshouldbeclearlyidentified.
+●	For each class minimum number of properties should be specified. Because unnecessary properties will make the diagramcomplicated.
+●	Use notes whenever required to describe some aspect of the diagram. Because at theend of the drawing it should be understandable tothedeveloper/coder.
+●	Finally,beforemakingthefinalversion,thediagramshouldbedrawnonplainpaperand rework as many times as possible to makeitcorrect.
+Now the following diagram is an example of an Order System of an application. So it describes a particular aspect of the entire application.
+●	Firstof all Order and Customer are identified as the two elements of the system and they haveaonetomanyrelationshipbecauseacustomercanhavemultipleorders.
+●	We would keep Order class is an abstract class and it has two concrete classes (inheritance relationship) SpecialOrder andNormalOrder.
+●	The two inherited classes have all the properties as the Order class. In addition, theyhave additional functions like dispatch () andreceive().
