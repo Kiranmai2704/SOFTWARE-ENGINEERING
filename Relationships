@@ -1,0 +1,35 @@
+Relationships
+A model is not complete unless the relationships between elements are described properly. The Relationship gives a proper meaning to an UML model. Following are the different types of relationships available in UML.
+●	Dependency
+●	Association
+●	Generalization
+●	Extensibility
+Dependency Notation:
+Dependency is an important aspect in UML elements. It describes the dependent elements and the direction of dependency. Dependency is represented by a dotted arrow as shown below. The arrow head represents the independent element and the other end the dependent element.
+
+
+Dependency is used to represent dependency between two elements of a system.
+
+Association Notation:
+AssociationdescribeshowtheelementsinanUMLdiagramareassociated.Insimpleworditdescribes how many elements are taking part in aninteraction.
+Association is represented by a dotted line with (without) arrows on both sides. The two ends represent two associated elements as shown below. The multiplicity is also mentioned at the ends (1,
+*	etc) to show how many objects areassociated.
+
+Association is used to represent the relationship between two elements of a system.
+
+Generalization Notation:
+Generalization describes the inheritance relationship of the object oriented world. It is parent and child relationship.
+Generalization is represented by an arrow with hollow arrow head as shown below. One end represents the parent element and the other end child element.
+
+
+Generalization is used to describe parent-child relationship of two elements of a system.
+
+Extensibility Notation:
+All the languages (programming or modelling) have some mechanism to extend its capabilities like syntax, semantics etc. UML is also having the following mechanisms to provide extensibility features.
+●	Stereotypes (Represents newelements)
+●	Tagged values (Represents newattributes)
+●	Constraints (Represents theboundaries)
+
+ 
+
+Extensibility notations are used to enhance the power of the language. It is basically additional elements used to represent some extra behavior of the system. These extra behaviors are not covered by the standard available notations.
