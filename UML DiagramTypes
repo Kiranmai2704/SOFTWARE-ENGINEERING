@@ -1,0 +1,17 @@
+UML DiagramTypes
+There are several types of UML diagrams:
+Use-case Diagram
+Shows actors, use-cases, and the relationships between them.
+Class Diagram
+Shows relationships between classes and pertinent information about classes themselves.
+Object Diagram
+Shows a configuration of objects at an instant in time.
+Interaction DiagramsShow an interaction between a group of collaborating objects. Two types: Collaboration diagram and sequence diagram Package Diagram
+Shows system structure at the library/package level.
+State Diagram
+Describes behavior of instances of a class in terms of states, stimuli, and transitions.
+Activity Diagram
+Very similar to a flowchart—shows actions and decision points, but with the ability to accommodate concurrency.
+Deployment Diagram
+Shows configuration of hardware and software in a distributed system.
+
