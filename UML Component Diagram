@@ -1,0 +1,83 @@
+UML Component Diagram
+Component diagrams are different in terms of nature and behaviour. Component diagrams are used to model physical aspects of a system.
+Now the question is what are these physical aspects? Physical aspects are the elements like executables, libraries, files, documents etc which resides in a node.
+So component diagrams are used to visualize the organization and relationships among components in a system. These diagrams are also used to make executable systems.
+Purpose:
+ComponentdiagramisaspecialkindofdiagraminUML.Thepurposeisalsodifferentfromall other diagrams discussed so far. It does not describe the functionality of the system but it describes the components used to make thosefunctionalities.
+So from that point component diagrams are used to visualize the physical components in a system. These components are libraries, packages, files etc.
+Component diagrams can also be described as a static implementation view of a system. Static implementation represents the organization of the components at a particular moment.A single component diagram cannot represent the entire system but a collection of diagrams are used to represent the whole.
+So the purpose of the component diagram can be summarized as:
+●	Visualize the components of asystem.
+●	Construct executables by using forward andreverseengineering.
+●	Describe the organization and relationships of thecomponents.
+How to draw Component Diagram?
+Component diagrams are used to describe the physical artifacts of a system. This artifact includes files, executables, libraries etc.
+So the purpose of this diagram is different, Component diagrams are used during the implementation phase of an application. But it is prepared well in advance to visualize the implementation details.
+Initially the system is designed using different UML diagrams and then when the artifacts are ready component diagrams are used to get an idea of the implementation.
+This diagram is very important because without it the application cannot be implemented efficiently. A well prepared component diagram is also important for other aspects like application performance, maintenance etc.
+So before drawing a component diagram the following artifacts are to be identified clearly:
+●	Files used in thesystem.
+●	Libraries and other artifacts relevant to theapplication.
+●	Relationships among theartifacts.
+Now after identifying the artifacts the following points needs to be followed:
+●	Use a meaningful name to identify the component for which the diagram is tobedrawn.
+●	Prepare a mental layout before producingusingtools.
+●	Use notes for clarifying importantpoints.
+The following is a component diagram for order management system. Here the artifacts are files.Sothediagramshowsthefilesintheapplicationandtheirrelationships.Inactualthecomponent diagram also contains files, libraries, foldersetc.
+In the following diagram four files are identified and their relationships are produced. Component diagram cannot be matched directly with other UML diagrams discussed so far. Because it is drawn for completely different purpose.
+UML Deployment Diagram
+Deployment diagrams are used to visualize the topology of the physical components of a system where the software components are deployed.
+
+So deployment diagrams are used to describe the static deployment view of a system.
+Deployment diagrams consist of nodes and their relationships.
+Purpose:
+The name Deployment itself describes the purpose of the diagram. Deployment diagramsare usedfordescribingthehardwarecomponentswheresoftwarecomponentsaredeployed.Component diagrams and deployment diagrams are closelyrelated.
+Component diagrams are used to describe the components and deployment diagrams shows how they are deployed in hardware.
+UMLismainlydesignedtofocusonsoftwareartifactsofasystem.Butthesetwodiagramsare special diagrams used to focus on software components and hardwarecomponents.
+So most of the UML diagrams are used to handle logical components but deployment diagramsaremadetofocusonhardwaretopologyofasystem.Deploymentdiagramsareusedbythe systemengineers.
+The purpose of deployment diagrams can be described as:
+●	Visualize hardware topology of asystem.
+●	Describe the hardware components used to deploy softwarecomponents.
+●	Describe runtime processingnodes.
+How to draw Deployment Diagram?
+Deployment diagram represents the deployment view of a system. It is related to the component diagram. Because the components are deployed using the deployment diagrams. A deployment diagram consists of nodes. Nodes are nothing but physical hardwareused to deploy the application.
+Deployment diagrams are useful for system engineers. An efficient deployment diagram is very important because it controls the following parameters
+●	Performance
+●	Scalability
+●	Maintainability
+●	Portability
+So before drawing a deployment diagram the following artifacts should be identified:
+●	Nodes
+●	Relationships amongnodes
+The following deployment diagram is a sample to give an idea of the deployment view of order management system. Here we have shown nodes as:
+●	Monitor
+●	Modem
+●	Cachingserver
+●	Server
+The application is assumed to be a webbased application which is deployed in a clustered environment using server 1, server 2 and server 3. The user is connecting to the application using internet. The control is flowing from the caching server to the clustered environment.
+UML Use Case Diagram
+To model a system the most important aspect is to capture the dynamic behaviour. To clarify a bit in details, dynamic behaviour means the behaviour of the system when it is running /operating.
+So only static behaviour is not sufficient to model a system rather dynamic behaviour is more important than static behaviour. In UML there are five diagrams available to model dynamic nature andusecasediagramisoneofthem.Nowaswehavetodiscussthat theusecasediagramisdynamic in nature there should be some internal or external factors for makingtheinteraction.
+These internal and external agents are known as actors. So use case diagrams are consists of actors, use cases and their relationships. The diagram is used to model the system/subsystem of an application. A single use case diagram captures a particular functionality of a system.
+So to model the entire system numbers of use case diagrams are used.
+Purpose:
+The purpose of use case diagram is to capture the dynamic aspect of a system. But this definition is too generic to describe the purpose.
+Becauseotherfourdiagrams(activity,sequence,collaborationandStatechart)arealsohaving thesamepurpose.Sowewilllookintosomespecificpurposewhichwilldistinguishitfromotherfour diagrams.
+Use case diagrams are used to gather the requirements of a system including internal and external influences. These requirements are mostly design requirements. So when a system is analyzed to gather its functionalities use cases are prepared and actors are identified.
+Now when the initial task is complete use case diagrams are modelled to present the outside view. So in brief, the purposes of use case diagrams can be as follows:
+●	Used to gather requirements of asystem.
+●	Used to get an outside view ofasystem.
+●	Identify external and internal factors influencing thesystem.
+●	Show the interacting among the requirements areactors.
+How to draw Use Case Diagram?
+Use case diagrams are considered for high level requirement analysis of a system. So when the requirements of a system are analyzed the functionalities are captured in use cases.
+So we can say that uses cases are nothing but the system functionalities written in an organized manner. Now the second things which are relevant to the use cases are the actors. Actors can be defined as something that interacts with the system.
+The actors can be human user, some internal applications or may be some external applications. So in a brief when we are planning to draw an use case diagram we should have the following items identified.
+●	Functionalities to be represented as an usecase
+●	Actors
+●	Relationships among the use cases andactors.
+Use case diagrams are drawn to capture the functional requirements of a system. So after identifying the above items we have to follow the following guidelines to draw an efficient use case diagram.
+●	Thenameofausecaseisveryimportant.Sothenameshouldbechoseninsuchawayso that it can identify the functionperformed.
+●	Give a suitable name foractors.
+●	Show relationships and dependencies clearly inthediagram.
+●	Do not try to include all types of relationships. Because the main purpose of the diagram is to identifyrequirements.
