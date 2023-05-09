@@ -1,0 +1,24 @@
+UML Statechart Diagram
+The name of the diagram itself clarifies the purpose of the diagram and other details. It describes different states of a component in a system. The states are specific to a component/object of a system.
+AStatechartdiagramdescribesastatemachine.Nowtoclarifyitstatemachinecanbedefined asamachinewhichdefinesdifferentstatesofanobjectandthesestatesarecontrolledbyexternalor internalevents.
+Activity diagram explained in next chapter, is a special kind of a Statechart diagram. As Statechart diagram defines states it is used to model lifetime of an object.
+Purpose:
+StatechartdiagramisoneofthefiveUMLdiagramsusedtomodeldynamicnatureofasystem. They define different states of an object during its lifetime. And these states are changed by events. So Statechart diagrams are useful to model reactive systems. Reactive systems can be defined as a system that responds to external or internalevents.
+Statechart diagram describes the flow of control from one state to another state. States are defined as a condition in which an object exists and it changes when some event is triggered. So the most important purpose of Statechart diagram is to model life time of an object from creation to termination.
+Statechart diagrams are also used for forward and reverse engineering of a system. But the main purpose is to model reactive system.
+Following are the main purposes of using Statechart diagrams:
+●	To model dynamic aspect of asystem.
+●	To model lifetime of a reactivesystem.
+●	To describe different states of an object during itslifetime.
+●	Define a state machine to model states of anobject.
+How to draw Statechart Diagram?
+Statechart diagram is used to describe the states of different objects in its life cycle. So the emphasisisgivenonthestatechangesuponsomeinternalorexternalevents.Thesestatesofobjects are important to analyze and implement themaccurately.
+Statechart diagrams are very important for describing the states. States can be identified as the condition of objects when a particular event occurs.
+Before drawing a Statechart diagram we must have clarified the following points:
+●	Identify important objects to beanalyzed.
+●	Identify thestates.
+●	Identify theevents.
+The following is an example of a Statechart diagram where the state of Order object is analyzed.
+The first state is an idle state from where the process starts. The next states are arrived for events like send request, confirm request, and dispatch order. These events are responsible for state changes of order object.
+During the life cycle of an object (here order object) it goes through the following states and there may be some abnormal exists also. This abnormal exit may occur due to some problem in the system. When the entire life cycle is complete it is considered as the complete transaction as mentioned below.
+The initial and final state of an object is also shown below:
