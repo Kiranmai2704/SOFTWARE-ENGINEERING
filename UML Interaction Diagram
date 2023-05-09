@@ -1,0 +1,29 @@
+UML Interaction Diagram
+From the name Interaction it is clear that the diagram is used to describe some type of interactions among the different elements in the model. So this interaction is a part of dynamic behaviour of the system.
+ThisinteractivebehaviourisrepresentedinUMLbytwodiagramsknownasSequencediagram andCollaborationdiagram.Thebasicpurposesofboththediagramsaresimilar.
+Sequence diagram emphasizes on time sequence of messages and collaboration diagram emphasizes on the structural organization of the objects that send and receive messages.
+Purpose:
+Thepurposesofinteractiondiagramsaretovisualizethe interactivebehaviourofthesystem. Now visualizing interaction is a difficult task. So the solution is to use different types of models to capture the different aspects of theinteraction.
+That is why sequence and collaboration diagrams are used to capture dynamic nature but from a different angle.
+So the purposes of interaction diagram can be describes as:
+●	To capture dynamic behaviour of asystem.
+●	To describe the message flow inthesystem.
+●	To describe structural organization of theobjects.
+●	To describe interaction amongobjects.
+How to draw Interaction Diagram?
+As we have already discussed that the purpose of interaction diagrams are to capture the dynamicaspectofasystem.Sotocapturethedynamicaspectweneedtounderstandwhatadynamic aspect is and how it is visualized. Dynamic aspect can be defined as the snapshot of the running system at a particularmoment.
+WehavetwotypesofinteractiondiagramsinUML. Oneissequencediagram andtheother is acollaborationdiagram.Thesequencediagramcapturesthetimesequenceofmessageflowfromone object to another and the collaboration diagram describes the organization of objects in a system taking part in the messageflow.
+So the following things are to identified clearly before drawing the interaction diagram:
+●	Objects taking part in theinteraction.
+●	Message flows among theobjects.
+●	The sequence in which the messages areflowing.
+●	Objectorganization.
+Following are two interaction diagrams modelling order management system. The first diagram is a sequence diagram and the second is a collaboration diagram.
+The Sequence Diagram:
+The sequence diagram is having four objects (Customer, Order, SpecialOrder and NormalOrder).
+ThefollowingdiagramhasshownthemessagesequenceforSpecialOrderobjectandthesame can be used in case of NormalOrder object. Now it is important to understand the time sequence of messageflows. Themessageflowisnothingbutamethodcall ofanobject.
+ThefirstcallissendOrder()whichisamethodofOrderobject.Thenextcallisconfirm()which is a method of SpecialOrder object and the last call is Dispatch () which is a method of SpecialOrder object.Soherethediagramismainlydescribingthemethodcallsfrom oneobject toanotherandthis is also the actual scenario when the system isrunning.
+The Collaboration Diagram:
+The second interaction diagram is collaboration diagram. It shows the object organization as shown below. Here in collaboration diagram the method call sequence is indicated by some numbering technique as shown below. The number indicates how the methods are called one after another. We have taken the same order management system to describe the collaboration diagram.
+The method calls are similar to that of a sequence diagram. But the difference is that the sequence diagram does not describe the object organization where as the collaboration diagram shows the object organization.
+Now to choose between these two diagrams the main emphasis is given on the type of requirement. If the time sequence is important then sequence diagram is used and if organization 
